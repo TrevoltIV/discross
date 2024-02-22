@@ -1,0 +1,41 @@
+
+
+
+
+.container {
+
+}
+
+.main {
+    margin-top: 60px;
+}
+
+.errorWrapper {
+    width: 100%;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.error {
+    font-family: "Jaldi";
+    color: rgb(243, 0, 0);
+    font-size: 18px;
+}
+
+.btn {
+    background: rgb(124, 124, 124);
+    margin-top: 50px;
+    padding: 5px 10px 5px 10px;
+
+    font-family: "Jockey One";
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: rgb(146, 146, 146);
+}

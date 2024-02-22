@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaldi&display=swap');
+
+.container {
+  
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.crossWrapper {
+  position: absolute;
+    top: 0;
+    left: 0;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.crossX {
+  background: rgb(175, 0, 0);
+  position: relative;
+    top: -140px;
+  width: 400px;
+  height: 22px;
+
+  z-index: 61;
+}
+
+.crossY {
+  background: rgb(175, 0, 0);
+  position: relative;
+    left: -205px;
+  width: 22px;
+  height: 700px;
+
+  z-index: 61;
+}
+
+.crossBorder {
+  position: absolute;
+    top: 0;
+    left: 0;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 49;
+}
+
+.borderX {
+  background: rgb(245, 245, 245);
+  position: relative;
+    top: -140px;
+  width: 100%;
+  height: 22px;
+}
+
+.borderY {
+  background: rgb(245, 245, 245);
+  position: relative;
+    left: -5px;
+  width: 22px;
+  height: 100%;
+}
+
+.content {
+  width: 100%;
+  margin-top: 60px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 60;
+}
+
+.contentTop {
+  width: 100%;
+
+  display: flex;
+}
+
+.groups {
+  width: 50%;
+  height: 295px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.forums {
+  width: 50%;
+  height: 295px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentBottom {
+  width: 100%;
+
+  display: flex;
+}
+
+.bottomBox {
+  width: 50%;
+  height: 600px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.title {
+  font-family: "Jockey One";
+  color: rgb(65, 65, 65);
+  font-size: 30px;
+}
+
+.title2 {
+  margin-top: 100px;
+
+  font-family: "Jockey One";
+  color: rgb(65, 65, 65);
+  font-size: 30px;
+}
+
+.desc {
+  font-family: "Jaldi";
+  font-size: 18px;
+}
+
+.link {
+  background: rgb(55, 55, 197);
+  width: 175px;
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Jockey One";
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+
+  transition: all .2s ease-in-out;
+}
+
+.link:hover {
+  background: rgb(67, 67, 231);
+
+  box-shadow: 0 0 100px rgba(0,0,0,1);
+  transition: all .2s ease-in-out;
+}
+
+.input {
+  background: rgb(231, 231, 231);
+  width: 300px;
+  height: 25px;
+  margin-top: 15px;
+  padding: 5px;
+
+  border: none;
+  outline: none;
+}
+
+.button {
+  background: rgb(165, 165, 165);
+  width: 125px;
+  height: 30px;
+  margin-top: 30px;
+
+  border: none;
+  cursor: pointer;
+
+  font-family: "Jockey One";
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.button:hover {
+  background: rgb(145, 145, 145);
+}
+
+.clickBoxWrapper {
+  background: rgb(231, 231, 231);
+  width: 100%;
+  margin-top: 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error {
+  margin-top: 10px;
+  padding: 5px;
+
+  border: solid 2px rgb(243, 0, 0);
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+
+  font-family: sans-serif;
+  color: rgb(243, 0, 0);
+  font-weight: 700;
+}
+
+.groupBox {
+  background: #fff;
+  width: 100%;
+  margin-bottom: 10px;
+
+  display: flex;
+  flex-direction: column;
+
+  cursor: pointer;
+
+  text-align: center;
+}
+
+.groupBox:first-child {
+  margin-top: 10px;
+}
+
+.groupBox:last-child {
+  margin-bottom: 10px;
+}
+
+.groupBox:hover {
+  background: rgb(231, 231, 231);
+}
+
+.groupTitle {
+  margin-top: 5px;
+
+  font-family: "Jockey One";
+  color: rgb(124, 124, 124);
+}
+
+.groupText {
+
+  font-family: "Jaldi";
+}
+
+/* TEMPORARY FOR FORUM BOTTOM BOX SECT */
+
+.clickBoxWrapper {
+  height: 315px;
+}
+
+.forumBox {
+  background: #fff;
+  width: 100%;
+  height: 295px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.noPosts {
+  font-family: "Jaldi";
+  color: rgb(243, 0, 0);
+  font-size: 18px;
+}

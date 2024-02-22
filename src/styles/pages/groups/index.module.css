@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaldi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+
+
+.container {
+    
+}
+
+.main {
+    margin-top: 60px;
+}
+
+.topBanner {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.authBanner {
+    margin: 20px 40px 0 0;
+
+    font-family: "Jaldi";
+}
+
+.formPopupWrapper {
+    position: absolute;
+        top: 60px;
+        left: 0;
+    width: 100%;
+
+    opacity: 100%;
+    z-index: 777;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formPopup {
+    background: #474747;
+    width: 700px;
+    height: 800px;
+    margin-top: 50px;
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formTitle {
+    font-family: "Jockey One";
+    color: #fff;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.formText {
+    width: 280px;
+    margin: 10px 0 30px 0;
+
+    font-family: "Jaldi";
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 18px;
+}
+
+.formInput {
+    background: rgb(243, 243, 243);
+    width: 280px;
+    height: 35px;
+    margin-top: 10px;
+    padding: 0 10px 0 10px;
+
+    border: none;
+    outline: none;
+}
+
+.formBtn {
+    background: #ffffffff;
+    margin-top: 30px;
+    padding: 5px 10px 5px 10px;
+
+    border: none;
+    cursor: pointer;
+
+    font-family: "Jockey One";
+    color: #464646;
+    font-size: 20px;
+}
+
+.formBtn:hover {
+    background: #e2e2e2;
+}
+
+.formSkip {
+    background: transparent;
+    margin-top: 20px;
+
+    border: none;
+    cursor: pointer;
+
+    font-family: "Jaldi";
+    color: #fff;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.groupTitles {
+    margin: 40px 80px 0 80px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.groupTitle {
+
+    font-family: "Jockey One";
+    color: rgb(65, 65, 65);
+    font-size: 26px;
+}
+
+.content {
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.contentDimmed {
+    margin-top: 20px;
+
+    filter: blur(4px);
+    
+    display: flex;
+    justify-content: center;
+}
+
+.groupsContainer {
+    background: #F9F9F9;
+    width: 650px;
+    height: 700px;
+    margin: 0 10px 0 10px;
+}
+
+.groupBox {
+    background: #ebebeb;
+    margin: 10px 10px 0 10px;
+    padding: 10px 0 10px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.groupBox:hover {
+    background: #F9F9F9;
+}
+
+.groupBoxes {
+    height: 625px;
+}
+
+.title {
+    font-family: "Jockey One";
+    color: rgb(88, 88, 88);
+    font-size: 22px;
+}
+
+.text {
+    font-family: "Jaldi";
+}
+
+.listingControl {
+    display: flex;
+    justify-content: center;
+}
+
+.controlBtn {
+    width: 40px;
+    height: 40px;
+
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Jockey One";
+    color: rgb(88, 88, 88);
+    font-size: 45px;
+}
+
+.controlBtn:hover {
+    background: #ebebeb;
+}
